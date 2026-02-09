@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(5deg); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
