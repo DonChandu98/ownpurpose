@@ -131,7 +131,7 @@ export default function ValentinePage() {
             {/* Image */}
             <div className="relative mb-6">
               <img
-                src="/images/try1.jpeg"  // <-- your image here
+                src="https://www.canva.com/design/DAHA1Efvn4E/swChIIUL3kjH1uhN4ICviA/edit?utm_content=DAHA1Efvn4E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"  // <-- your image here
                 alt="Our moment"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />
