@@ -1,5 +1,9 @@
 import { useState, useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
+import tryImg from '../assets/tryImg.jpg';
+import tryImg1 from '../assets/tryImg1.jpeg';
+
+
 
 export default function ValentinePage() {
   const navigate = useNavigate()
@@ -131,7 +135,7 @@ export default function ValentinePage() {
             {/* Image */}
             <div className="relative mb-6">
               <img
-                src="https://www.canva.com/design/DAHA1Efvn4E/swChIIUL3kjH1uhN4ICviA/edit?utm_content=DAHA1Efvn4E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"  // <-- your image here
+                src={tryImg1}
                 alt="Our moment"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />
@@ -184,7 +188,7 @@ export default function ValentinePage() {
 
       <div ref={containerRef} className="relative z-10 text-center max-w-2xl bg-white/60 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-[0_8px_32px_rgba(244,63,94,0.15)] border border-rose-200/50 overflow-hidden">
         <img
-          src="/images/try.jpg"
+          src={tryImg}
           alt=""
           className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover mx-auto mb-6 ring-4 ring-rose-200/80 shadow-lg"
         />
